@@ -39,21 +39,4 @@ while True:
         break
     
 
-
-'''
-#detect faces (detectmultiscale = detect all faces no matter scale of face, small big, etc)
-face_coordinate = trained_face_data.detectMultiScale(grayscale_img)
-
-#draw rectangle around faces
-for (x,y,w,h) in face_coordinate:
-    cv2.rectangle(img, (x, y),(x+w,y+h),(0,255,0), 5)
-
-#print(face_coordinate)
-
-#show image
-cv2.imshow('Face Detector App',img)
-
-#pauses code so the img doesnt just go away and code doesnt just execute immediately, will wait until a key is pressed to execute
-cv2.waitKey()
-'''
 print("Code Completed")
